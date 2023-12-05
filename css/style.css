@@ -11,11 +11,39 @@ body {
     background-color: #083B4C;
 }
 
-
-/* HEADER */
-
-
 /* MAIN */
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.box-blue {
+    background-color: #1389B2;
+}
+
+.box-green {
+    background-color: #0CD6A1;
+    clip-path: polygon(50% 0%, 0% 50%, 50% 100%, 100% 50%);
+}
+
+.box-yellow {
+    background-color: #FFD166;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.box-red {
+    background-color: #F0466F;
+    border-radius: 50%;
+}
+
 
 
 /* FOOTER */
